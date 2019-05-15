@@ -1,0 +1,37 @@
+form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #D2F4FF;
+    padding: 5px 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    input{
+        margin: 10px 0;
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        &::placeholder{
+            color: rgba(0,0,0,0.5);
+        }
+    }
+    button{
+        font-weight: 800;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #153F7E;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin: 10px 0;
+        font-size: 18px;
+        padding: 5px 10px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+

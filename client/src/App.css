@@ -1,0 +1,13 @@
+* {
+  font-family: 'Montserrat',  sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
